@@ -1,0 +1,7 @@
+<h3>Create a Dog</h3>
+<%= form_with model: @food do |form| %>
+  <%= form.text_field :name, placeholder: "Name" %>
+  <%= form.text_field :description, placeholder: "Description" %>
+  <%= form.text_field :price, placeholder: "Price" %>
+  <%= form.submit %>
+<% end %>

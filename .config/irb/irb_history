@@ -1,0 +1,4 @@
+Faker::Food.dish
+Faker::Food.description
+bundle install
+exit
